@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import vlrtLogo from "/images/logo/logo-val.svg";
+import twitchLogo from "/images/logo/logo-twitch.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src={twitchLogo} className="logo twitch" alt="Twitch logo" />
+        <img src={vlrtLogo} className="logo" alt="Valorant logo" />
       </div>
-      <h1>Vite + React</h1>
+      <div>
+        <h1 id="text1" className="gradientText">트위치 발로란트 내전 카드 생성기</h1>
+      </div>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <p>카드 생성 버튼을 눌러 새 카드를 만들 수 있습니다.</p>
+        <button>카드 생성하기</button>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Copyright ⓒ 2023{" "}
+        <a href="https://github.com/khakhid" target="_blank">
+          khakid
+        </a>{" "}
+        Allright reserved.
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

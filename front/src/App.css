@@ -6,37 +6,35 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 3em;
+  padding: .5em;
   will-change: filter;
   transition: filter 300ms;
+  filter: drop-shadow(0px 0px 2em #ff0026);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.logo.twitch {
+  filter: drop-shadow(0px 0px 2em #bb00ff);
 }
 
 .card {
-  padding: 2em;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.gradientText {
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(to right, rgb(145,70,255), rgb(255,70,85)); 
+  color: transparent;
+  filter: drop-shadow(1px 1px .5em #000000);
+  -webkit-background-clip: text;
 }
