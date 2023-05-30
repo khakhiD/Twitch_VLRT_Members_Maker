@@ -27,9 +27,9 @@ function App() {
         <p>카드 생성 버튼을 눌러 위와 같은 카드를 만들 수 있습니다.</p>
         <button>카드 생성하기</button>
       </div>
-      <p className="read-the-docs">
+      <p className="copyright">
         Copyright ⓒ 2023{" "}
-        <a href="https://github.com/khakhid" target="_blank">
+        <a href="https://github.com/khakhid">
           khakid
         </a>{" "}
         Allright reserved.
