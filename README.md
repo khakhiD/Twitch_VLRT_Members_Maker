@@ -74,28 +74,16 @@
     - 결과물 예시부터 디자인
     - UI 만들기
 2. 트위치 API로 검색 기능 만들기
-    
     [[마켓만들기] 키워드 검색 기능(api query, 검색어 하이라이팅)](https://velog.io/@ongddree/마켓만들기-검색-기능api-onChange-하이라이팅)
-    
     - 드롭다운 검색 기능
     - 받아올 유저 데이터: 스트리머 이름(display_name), 프로필 이미지(profile_image_url),
 
 ## Twitch API 사용법
 [* 트위치 API 가이드 * - 트위치개발 채널](https://arca.live/b/twitchdev/44459710)
-
-```jsx
-{
-    "access_token": "y8u9zf64ax2v99q0216wl07odpr7k5",
-    "expires_in": 5134898,
-    "token_type": "bearer"
-}
-```
-
 - 만료 기간은 초(second) 단위로, 약 2달이다.
 
 ### API 사용법
 
-<aside>
 📌 **자주 사용되는 API**
 1. 유저 조회
 2. 채널 정보 조회
@@ -103,8 +91,6 @@
 4. 비디오 조회
 5. 클립 조회
 6. 팔로우 조회
-
-</aside>
 
 - 위의 api 들은 모두 headers 가 포함된 get 요청을 보내야합니다. 헤더는 headers = {"Client-Id" : client_id, "Authorization" : "Bearer "+app_token} 를 공통으로 사용합니다.
 - 각 api 에서 사용하는 파라미터를 적용하는 방법은 다음과 같은 규칙을 따릅니다. 메인 주소가 만약 '[https://api.twitch.tv/helix/slug](https://oo.pe/https://api.twitch.tv/helix/slug)' 라면 주소 뒤에 '?' 를 붙이고 '키값'='데이터값' 과 같은 형태로 서술합니다. 파라미터가 여러개라면 각 파라미터 부분 사이에 '&' 를 사용해주시면 됩니다. 예를들면 '[https://api.twitch.tv/helix/slug?key1=data1&key2=data2&key3=data3](https://oo.pe/https://api.twitch.tv/helix/slug?key1=data1&key2=data2&key3=data3)' 와 같은 형태를 나타낼겁니다.
