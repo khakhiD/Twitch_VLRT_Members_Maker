@@ -2,9 +2,7 @@
 
 
 <div class="markdown-body" align="center">
-	<img src="front/public/images/logo/logo-twitch.svg" style="width: 50px" class="logo twitch" alt="Twitch logo">
-    <img src="front/public/images/logo/logo-val.svg" width="60px" class="logo" alt="Valorant logo">
-	<h1>트위치 발로란트 내전 카드 생성기</h1>
+	<img src="front/public/images/readme-title.png" alt="title">
 </div>
 
 ## Where is this coming from?
