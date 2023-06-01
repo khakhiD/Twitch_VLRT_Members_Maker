@@ -1,0 +1,59 @@
+.members {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-image: url("./images/bg.jpg");
+    /* background-size: cover; */
+    background-color: transparent;
+    padding: 100px 2em 100px 2em;
+    margin: 2em 0em 2em 0em;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 2em;
+    margin: 0 0 0 0;
+    color: #FFFFFF;
+    filter: drop-shadow(0px 0px .2em #000000);
+  }
+  
+  .date {
+    color: #ffffff;
+    filter: drop-shadow(0 0 .2em #000000);
+  }
+
+  /* table */
+  table {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  h3 {
+    line-height: 0;
+  }
+  tr {
+    border-radius: 8px;
+    border: 1px solid #000000;
+  }
+  th {
+    border-radius: 8px;
+    border: 1px solid #000000;
+  }
+  td {
+    border-radius: 4px;
+    border: 1px solid #000000;
+  }
+
+  /* footer */
+  .footer {
+    text-align: center;
+  }

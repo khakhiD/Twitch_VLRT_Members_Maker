@@ -42,7 +42,7 @@
 
 /* Card Example 임시 CSS */
 
-.cardExampleBg {
+.members {
   border-radius: 8px;
   background-image: url("./images/bg.jpg");
   background-size: cover;
@@ -51,14 +51,14 @@
   margin: 2em 0em 2em 0em;
 }
 
-.cardExampleBg > h2 {
+.members > h2 {
   font-size: 2em;
   margin: 0 0 0 0;
   color: #FFFFFF;
   filter: drop-shadow(0px 0px .2em #000000);
 }
 
-.cardExampleBg > span {
+.members > span {
   color: #ffffff;
   filter: drop-shadow(0 0 .2em #000000);
 }
