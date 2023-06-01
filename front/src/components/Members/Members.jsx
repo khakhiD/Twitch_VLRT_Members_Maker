@@ -9,27 +9,24 @@ const Members = (props) => {
             <span className={classes.date}>{props.todayDate()}</span>
         </div>
         <div className={classes.content}>
-            <table className={classes.tableRed}>
+        <table className={classes.tableRed}>
                 <thead>공격팀</thead>
                 <tr>
                     <td>티어</td>
                     <td>스트리머</td>
                     <td>레이팅</td>
                     <td>모스트</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>A</td>
                     <td>
                         <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
                     </td>
-                    <td><></></td>
                     <td>
                         
                     </td>
@@ -39,14 +36,10 @@ const Members = (props) => {
                     <td>
                     <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -57,14 +50,10 @@ const Members = (props) => {
                     <td>
                     <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -75,14 +64,10 @@ const Members = (props) => {
                     <td>
                     <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -93,43 +78,33 @@ const Members = (props) => {
                     <td>
                     <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
                     </td>
                     <td>
-
-                    </td>
-                    <td>
                         
                     </td>
                 </tr>
-            </table>
-            <table className={classes.tableRed}>
+            </table><table className={classes.tableRed}>
                 <thead>공격팀</thead>
                 <tr>
                     <td>티어</td>
                     <td>스트리머</td>
                     <td>레이팅</td>
                     <td>모스트</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>A</td>
                     <td>
-                        <div className="streamerIcon">
-                            <img src="/images/logo/ico-plcaeholder.svg" />
-                        </div>
+                        <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
                     </td>
-                    <td><></></td>
                     <td>
                         
                     </td>
@@ -137,18 +112,12 @@ const Members = (props) => {
                 <tr>
                     <td>B</td>
                     <td>
-                        <div className="streamerIcon">
-                            <img src="./public/images/logo/ico-plcaeholder.svg" />
-                        </div>
+                    <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -157,18 +126,12 @@ const Members = (props) => {
                 <tr>
                     <td>C</td>
                     <td>
-                        <div className="streamerIcon">
-                            <img src="./public/images/logo/ico-plcaeholder.svg" />
-                        </div>
+                    <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -177,18 +140,12 @@ const Members = (props) => {
                 <tr>
                     <td>D</td>
                     <td>
-                        <div className="streamerIcon">
-                            <img src="./public/images/logo/ico-plcaeholder.svg" />
-                        </div>
+                    <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-
                     </td>
                     <td>
                         
@@ -197,18 +154,12 @@ const Members = (props) => {
                 <tr>
                     <td>E</td>
                     <td>
-                        <div className="streamerIcon">
-                            <img src="./public/images/logo/ico-plcaeholder.svg" />
-                        </div>
+                    <div className="streamerIcon"></div>
                         <h3>홍길동</h3>
-                        <p>Svl Honggildong</p>
                     </td>
                     <td>
                         MAX
                         MIN
-                    </td>
-                    <td>
-                        
                     </td>
                     <td>
                         

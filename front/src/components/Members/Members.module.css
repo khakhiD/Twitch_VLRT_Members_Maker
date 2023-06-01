@@ -3,9 +3,9 @@
     flex-direction: column;
     border-radius: 8px;
     background-image: url("./images/bg.jpg");
-    /* background-size: cover; */
+    background-size: 100%;
     background-color: transparent;
-    padding: 100px 2em 100px 2em;
+    padding: 50px 10px 50px 10px;
     margin: 2em 0em 2em 0em;
   }
   
