@@ -1,3 +1,9 @@
+### **Twitch 한국 서비스 종료로 인해 무산된 토이 프로젝트입니다.**
+
+
+<br />
+<br />
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.css" rel="stylesheet">
 
 
