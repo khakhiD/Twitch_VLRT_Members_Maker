@@ -7,9 +7,7 @@
 
 ## Where is this coming from?
 
-![에펨코리아 인터넷방송 게시판 ‘brotato’님의 짤방](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9af0472f-fdc8-49e7-a433-2cf74a84a8bf/Untitled.png)
-
-에펨코리아 인터넷방송 게시판 ‘brotato’님의 짤방
+![인터넷방송 게시판 ‘brotato’님의 짤방](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9af0472f-fdc8-49e7-a433-2cf74a84a8bf/Untitled.png)
 
 - 이런 짤방을 간편하게 만들어주는 사이트를 만들어보자.
 - 디자인을 조금 더 깔끔하게 하고, 아웃풋을 이미지 또는 HTML 형태로 저장할 수 있게 하자.
